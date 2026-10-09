@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800;900&family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --primary-color: #070f1e;
+    --secondary-color: #0d1b2a;
+    --accent-color: #d4af37;
+    --accent-light: #f4c430;
+    --text-light: #f8fafc;
+    --text-muted: #64748b;
+    --bg-premium: #fafaf9;
+    --card-bg: #ffffff;
+    --border-color: rgba(212, 175, 55, 0.2);
+    --header-bg: #070f1e;
+    --font-heading: 'Cinzel', serif;
+    --font-subheading: 'Outfit', sans-serif;
+    --font-body: 'Plus Jakarta Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: #ffffff;
+    color: var(--primary-color);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+.bento-grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1.5rem;
+}
+
+@media (max-width: 992px) {
+    .bento-grid {
+        grid-template-columns: 1fr;
+    }
+}

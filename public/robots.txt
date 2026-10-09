@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.advocaterk0788.in/sitemap.xml

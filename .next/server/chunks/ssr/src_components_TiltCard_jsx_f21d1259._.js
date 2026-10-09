@@ -1,0 +1,3 @@
+module.exports=[76550,a=>{"use strict";var b=a.i(87924);a.i(72131);var c=a.i(46271);a.s(["default",0,({children:a,className:d="",style:e={}})=>(0,b.jsx)(c.motion.div,{whileHover:{y:-10,transition:{duration:.3,ease:"easeOut"}},style:{height:"100%",...e},className:d,children:(0,b.jsx)("div",{style:{height:"100%",boxShadow:"0 10px 30px rgba(0,0,0,0.05)",borderRadius:"12px",overflow:"hidden"},children:a})})])}];
+
+//# sourceMappingURL=src_components_TiltCard_jsx_f21d1259._.js.map
